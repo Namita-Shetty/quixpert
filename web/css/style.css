@@ -139,7 +139,7 @@ div#navbar {
 
 /*-- //Navigation --*/
 
-
+.mySlides {display:none;}
 
 /*-- Video --*/
 
@@ -244,14 +244,27 @@ h2 {
 
 /*-- //About --*/
 
-
+#btn,  #btn2{
+	float:left;
+	background:#1D2F75;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	color:white;}
+#btn1, #btn3{
+	    margin-left: 450px;
+	background:#1D2F75;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	color:white;}
 
 /*-- Stats --*/
 
 .stats {
 	/*--w3layouts--*/
 	/*--agileits--*/
-	background: url("../images/stats.jpg");
+	background: url("../images/experts1.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -260,15 +273,18 @@ h2 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	padding: 100px 0;
+	opacity: 0.9; 
+    
 }
 
 .stats h3 {
-	color: #FFF;
+	color: Black;
 	margin-bottom: 50px;
 }
 
 .stats-info {
 	text-align: center;
+	
 }
 
 .stats-img img {
@@ -282,7 +298,7 @@ h2 {
 .numscroller {
 	font-size: 50px;
 	font-weight: 700;
-	color: #FFFFFF;
+	color: Black;
 	margin-bottom: 10px;
 }
 
@@ -290,7 +306,8 @@ h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 	font-weight: 600;
-	color: #EEE;
+	color:lightcyan;
+	font-weight:bolder;
 }
 
 /*-- //Stats --*/
